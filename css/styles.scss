@@ -1,0 +1,42 @@
+ // Custom bootstrap variables must be set or imported *before* bootstrap.
+@import 'bootstrap_overrides';
+@import 'colours';
+@import 'mixins';
+@import 'fonts';
+
+.navbar-brand img {
+  width: 98px;
+  height: 21px;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Caslon Display', 'serif';
+    font-weight: normal;
+}
+h6 {
+    font-family: 'Anonymous', 'monospace';
+    font-weight: normal;
+}
+p {
+    font-family: 'Proxima Nova', 'sans-serif';
+    font-weight: normal;
+}
+body {
+    background: $off-white;
+}
+.btn-primary {
+    color: $white;
+}
+hr {
+    border: 5px solid $pink;
+    margin:0px;
+}
+
+//navbar
+.bg-light {
+    background-color: #f8f9fa!important;
+}
+.logo {
+    width:15%;
+    margin:10px;
+}
