@@ -8,7 +8,7 @@
             <img class='img-fluid img-responsive' src='img/font-slider/wolpe-banner.png' alt='font-banner'>
             <div class="banner">
                 <h3>Over 3000 satisfied clients!</h3>
-                <button class="btn btn-primary" href="portfolio.php">View Portfolio</button>
+                <a class="btn btn-primary" href="packages.php">View Packages</a>
             </div>
         </div>
     </div>
