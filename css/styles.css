@@ -271,6 +271,18 @@ hr {
   display: none;
 }
 
+.contact-container {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+#map {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+
 .page-footer {
   font-family: 'Anonymous', 'monospace', 'Helvetica';
   background-color: #E9394D;

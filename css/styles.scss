@@ -166,6 +166,16 @@ hr {
 //packages
 
 //contact
+.contact-container {
+    margin-top:$margin;
+    margin-bottom: $margin;
+}
+#map {
+    margin-top:$margin;
+    margin-bottom: $margin;
+    display: flex;
+    justify-content: center;
+}
 
 //footer
 .page-footer {
