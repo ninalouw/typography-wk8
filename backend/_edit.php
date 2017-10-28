@@ -30,6 +30,20 @@
 										<br><br>';
                                     echo "</div>";
                                     echo "</div>";
+								}
+								else if( $name === "category_id"){
+                                    echo "<div class='form-group row'>";
+                                    echo "<div class='col-sm-12 col-md-6 col-lg-6'>";
+									echo '<label>'.$name.': </label>';
+                                    echo "<select  class='form-control name='".$name."' value='".$value."'>";
+                                    echo "<option value='".$value."' selected>" . $value. "</option>";
+                                    echo "<option value='1' selected>Serif</option>";
+                                    echo "<option value='2'>Sans-serif</option>";
+                                    echo "<option value='3'>Script</option>";
+                                    echo "<option value='4'>Monospace</option>";
+									echo "</select>";
+                                    echo "</div>";
+                                    echo "</div>";
                                 }
                                 else if($name === "description") {
                                     echo "<div class='form-group row'>";
@@ -49,20 +63,6 @@
 										}
 									echo "</select>";
 									echo "<div class='image-preview'></div>";
-                                    echo "</div>";
-                                    echo "</div>";
-                                }
-                                else if( $name === "category_id"){
-                                    echo "<div class='form-group row'>";
-                                    echo "<div class='col-sm-12 col-md-6 col-lg-6'>";
-									echo '<label>'.$name.': </label>';
-                                    echo "<select  class='form-control name='".$name."' value='".$value."'>";
-                                    echo "<option value='".$value."' selected>" . $value. "</option>";
-                                    echo "<option value='1' selected>Serif</option>";
-                                    echo "<option value='2'>Sans-serif</option>";
-                                    echo "<option value='3'>Script</option>";
-                                    echo "<option value='4'>Monospace</option>";
-									echo "</select>";
                                     echo "</div>";
                                     echo "</div>";
                                 }

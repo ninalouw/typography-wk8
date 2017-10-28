@@ -58,7 +58,7 @@
                 <h4 class="card-title">Fairwater</h4>
                 <p class="card-text text-muted">Serif Font</p>
                 <p class="card-text">$54</p>
-                <a href="products.php" class="btn btn-primary">View</a>
+                <a href="portfolio.php" class="btn btn-primary">View</a>
             </div>
             </div>
         </div>
@@ -136,7 +136,7 @@
                 <h4 class="card-title">Geogro Slab</h4>
                 <p class="card-text text-muted">Serif Font</p>
                 <p class="card-text">$54</p>
-                <a href="products.php" class="btn btn-primary">View</a>
+                <a href="portfolio.php" class="btn btn-primary">View</a>
             </div>
             </div>
         </div>

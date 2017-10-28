@@ -8,10 +8,18 @@
         <div class="filters-categories">
             <p class="lead">Filter Fonts by Category</p>
             <div class="filters-toggles">
-                <span class="filters-toggle active" data-category="Serif">Serif</span>
-                <span class="filters-toggle active" data-category="Sans-serif">Sans-serif</span>
-                <span class="filters-toggle active" data-category="Script">Script</span>
-                <span class="filters-toggle active" data-category="Monospace">Monospace</span>
+                <span class="filters-toggle active" data-category="Serif">Serif
+                    <input type="checkbox" aria-label="Checkbox for following text input"checked>
+                </span>
+                <span class="filters-toggle active" data-category="Sans-serif">Sans-serif
+                    <input type="checkbox" aria-label="Checkbox for following text input"checked>
+                </span>
+                <span class="filters-toggle active" data-category="Script">Script
+                    <input type="checkbox" aria-label="Checkbox for following text input"checked>
+                </span>
+                <span class="filters-toggle active" data-category="Monospace">Monospace
+                    <input type="checkbox" aria-label="Checkbox for following text input"checked>
+                </span>
             </div>
         </div>
     </section>

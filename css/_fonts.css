@@ -56,7 +56,7 @@
 
 @font-face {
   font-family: 'Proxima Nova';
-  src: url("/assets/proxima-nova-regular-webfont.woff") format("woff");
+  src: url("../fonts/proxima-nova-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }

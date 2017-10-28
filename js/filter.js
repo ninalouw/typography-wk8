@@ -4,16 +4,16 @@ $(function () {
     //	fill array of active categories
     getActiveCategoryList();
 
-    // Filter products when user clicks buttons
+    // Filter fonts when user clicks buttons
     $('.filters-toggle').click(function () {
         var $this = $(this);
         var category = $this.data('category');
 
-        //	toggle active class for party filter element and refresh array with active parties
+        //	toggle active class for filter element and refresh array with active buttons
         $this.toggleClass('active');
         getActiveCategoryList();
 
-        //	toggle hidden class for all products
+        //	toggle hidden class for all fonts
         $('.category[data-category="' + category + '"]').toggleClass('hidden');
 
         //loop through activeCategories and display those with the class 'active'
