@@ -17,7 +17,7 @@
     <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card-mobile">
             <div class="card">
-            <img class="card-img-top" src="img/font-type/square/mona.png" alt="Card image">
+            <img class="card-img-top" src="img/mona.png" alt="Card image">
             <div class="card-body">
                 <h4 class="card-title">Mona</h4>
                 <p class="card-text text-muted">Script font</p>
@@ -29,7 +29,7 @@
 
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card-mobile">
             <div class="card">
-            <img class="card-img-top" src="img/font-type/square/peomy.jpg" alt="Card image">
+            <img class="card-img-top" src="img/peomy.jpg" alt="Card image">
             <div class="card-body">
                 <h4 class="card-title">Peomy</h4>
                <p class="card-text text-muted">Script Font</p>
@@ -41,7 +41,7 @@
 
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card-mobile">
             <div class="card">
-            <img class="card-img-top" src="img/font-type/square/sunn-line.jpg" alt="Card image cap">
+            <img class="card-img-top" src="img/sunn-line.jpg" alt="Card image cap">
             <div class="card-body">
                 <h4 class="card-title">Sunn Line</h4>
                <p class="card-text text-muted">Sans-serif Font</p>
@@ -53,7 +53,7 @@
 
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card-mobile">
             <div class="card">
-            <img class="card-img-top" src="img/font-type/square/fairwater.jpg" alt="Card image cap">
+            <img class="card-img-top" src="img/fairwater.jpg" alt="Card image cap">
             <div class="card-body">
                 <h4 class="card-title">Fairwater</h4>
                 <p class="card-text text-muted">Serif Font</p>
@@ -95,7 +95,7 @@
     <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card-mobile">
             <div class="card">
-            <img class="card-img-top" src="img/font-type/square/plume.jpg" alt="Card image">
+            <img class="card-img-top" src="img/plume.jpg" alt="Card image">
             <div class="card-body">
                 <h4 class="card-title">Plume</h4>
                 <p class="card-text text-muted">Script font</p>
@@ -107,7 +107,7 @@
 
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card-mobile">
             <div class="card">
-            <img class="card-img-top" src="img/font-type/square/vintii.jpg" alt="Card image">
+            <img class="card-img-top" src="img/vintii.jpg" alt="Card image">
             <div class="card-body">
                 <h4 class="card-title">Vintii</h4>
                <p class="card-text text-muted">Script Font</p>
@@ -119,7 +119,7 @@
 
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card-mobile">
             <div class="card">
-            <img class="card-img-top" src="img/font-type/square/handelson.png" alt="Card image cap">
+            <img class="card-img-top" src="img/handelson.png" alt="Card image cap">
             <div class="card-body">
                 <h4 class="card-title">Handelson</h4>
                <p class="card-text text-muted">Serif Font</p>
@@ -131,7 +131,7 @@
 
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 card-mobile">
             <div class="card">
-            <img class="card-img-top" src="img/font-type/square/geogro-slab.png" alt="Card image cap">
+            <img class="card-img-top" src="img/geogro-slab.png" alt="Card image cap">
             <div class="card-body">
                 <h4 class="card-title">Geogro Slab</h4>
                 <p class="card-text text-muted">Serif Font</p>

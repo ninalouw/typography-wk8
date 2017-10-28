@@ -162,6 +162,17 @@ hr {
 
 
 //portfolio
+.portfolio-container {
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.portfolio-cards {
+    margin-top:30px;
+    margin-bottom: 30px;
+    .card {
+        margin-bottom:10px;
+    }
+}
 
 //packages
 .packages {
