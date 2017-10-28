@@ -69,9 +69,11 @@
     <div class="row hero">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h2 class="text-center"> Test My Type</h2>
-                    <div class="filters">
-                        <span>Choose Font
-                        <select id="input-font" class="input">
+            <section class="filters">
+                <div class="filters-categories">
+                    <div class="filters-toggles">
+                        <label class="mr-sm-2" for="inlineFormCustomSelect">Font</label>
+                        <select class="mb-2 mr-sm-2 mb-sm-0 filters-toggle" id="input-font" class="input">
                             <option value="Helvetica">Helvetica</option>
                             <option value="Bodoni">Bodoni</option>
                             <option value="Didot">Didot</option>
@@ -83,9 +85,9 @@
                             <option value="Arial">Arial</option>
                             <option value="Georgia">Georgia</option>
                         </select>
-                        </span>
-                        <span> Size
-                        <select id="size">
+                        
+                        <label class="mr-sm-2" for="inlineFormCustomSelect">Size</label>
+                        <select class="mb-2 mr-sm-2 mb-sm-0 filters-toggle" id="size">
                             <option value="12">12</option>
                             <option value="16">16</option>
                             <option value="20">20</option>
@@ -95,21 +97,24 @@
                             <option value="40">40</option>
                             <option value="48">48</option>
                         </select>
-                        </span>
-                        <span> Style
-                        <select id="style">
+                        
+                        <label class="mr-sm-2" for="inlineFormCustomSelect">Style</label>
+                        <select class="mb-2 mr-sm-2 mb-sm-0 filters-toggle" id="style">
                             <option value="bold">Bold</option>
                             <option value="italic">Italic</option>
                             <option value="normal">Regular</option>
                         </select>
-                        </span>
-                        <span>Transform
-                        <select id="transform">
+                        
+                        <label class="mr-sm-2" for="inlineFormCustomSelect">Transform</label>
+                        <select class="mb-2 mr-sm-2 mb-sm-0 filters-toggle" id="transform">
                             <option value="uppercase">Uppercase</option>
                             <option value="lowercase">Lowercase</option>
                         </select>
-                        </span>
+                        
+
                     </div>
+                </div>
+            </section>
             <form>
             <div class="form-group">
                 <textarea class="form-control output-text" rows="2">The quick brown fox jumped over the brown log</textarea>
