@@ -40,7 +40,7 @@
               <a class="nav-link" href="admin.php">Admin</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="portfolio_form.php">Add New Portfolio</a>
+              <a class="nav-link" href="portfolio_form.php">Add New Font</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="logIn.php">Log In</a>
