@@ -69,25 +69,51 @@
     <div class="row hero">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h2 class="text-center"> Test My Type</h2>
-            <section class="filters">
-                <div class="filters-categories">
-                    <div class="filters-toggles">
-                        <select>
-                            <option value="bodoni">Bodoni</option>
+                    <div class="filters">
+                        <span>Choose Font
+                        <select id="input-font" class="input">
+                            <option value="Helvetica">Helvetica</option>
+                            <option value="Bodoni">Bodoni</option>
+                            <option value="Didot">Didot</option>
+                            <option value="Bitter">Bitter</option>
+                            <option value="Lato">Lato</option>
+                            <option value="Anonymous">Anonymous</option>
+                            <option value="Proxima Nova">Proxima Nova</option>
+                            <option value="Caslon Regular">Caslon</option>
+                            <option value="Arial">Arial</option>
+                            <option value="Georgia">Georgia</option>
                         </select>
-                        <span class="filters-toggle active" data-font="bold">Bold</span>
-                        <span class="filters-toggle active" data-font="italic">Italic</span>
-                        <span class="filters-toggle active" data-font="uppercase">Upcase</span>
-                        <span class="filters-toggle active" data-font="lowercase">Lowcase</span>
-                        <span class="filters-toggle active" data-font="size">Size</span>
+                        </span>
+                        <span> Size
+                        <select id="size">
+                            <option value="12">12</option>
+                            <option value="16">16</option>
+                            <option value="20">20</option>
+                            <option value="24">24</option>
+                            <option value="30">30</option>
+                            <option value="36">36</option>
+                            <option value="40">40</option>
+                            <option value="48">48</option>
+                        </select>
+                        </span>
+                        <span> Style
+                        <select id="style">
+                            <option value="bold">Bold</option>
+                            <option value="italic">Italic</option>
+                            <option value="normal">Regular</option>
+                        </select>
+                        </span>
+                        <span>Transform
+                        <select id="transform">
+                            <option value="uppercase">Uppercase</option>
+                            <option value="lowercase">Lowercase</option>
+                        </select>
+                        </span>
                     </div>
-                </div>
-            </section>
             <form>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Type something...</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
+            <div class="form-group">
+                <textarea class="form-control output-text" rows="2">The quick brown fox jumped over the brown log</textarea>
+            </div>
             </form>
         </div>
     </div>

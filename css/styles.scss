@@ -118,12 +118,22 @@ hr {
     margin-bottom: $margin;
 }
 //test my type
+.font-styles{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
 .filters {
     margin-top: $margin;
+    margin-bottom: 20px;
         display: flex;
     justify-content: center;
     select {
         margin-right:15px;
+        background: #fff;
+        border: 1px solid $pink;
+        color: #7C1E1E;
+        padding: 15px;
+        text-align: center;
     }
 }
 

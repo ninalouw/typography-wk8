@@ -68,7 +68,7 @@ button.btn {
 
 @font-face {
   font-family: 'Proxima Nova';
-  src: url("/assets/proxima-nova-regular-webfont.woff") format("woff");
+  src: url("../fonts/proxima-nova-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -228,14 +228,25 @@ hr {
   margin-bottom: 60px;
 }
 
+.font-styles {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .filters {
   margin-top: 60px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
 }
 
 .filters select {
   margin-right: 15px;
+  background: #fff;
+  border: 1px solid #E9394D;
+  color: #7C1E1E;
+  padding: 15px;
+  text-align: center;
 }
 
 .filters-categories {
