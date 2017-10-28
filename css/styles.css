@@ -285,6 +285,11 @@ hr {
   margin-bottom: 10px;
 }
 
+.admin-container {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
 .packages {
   margin-top: 60px;
   margin-bottom: 60px;
