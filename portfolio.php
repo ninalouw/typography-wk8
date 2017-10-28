@@ -1,4 +1,5 @@
 <!-- php header -->
+<?php error_reporting(0); ?>
 <?php include "partials/header.php"?>
 
 <!-- categories filter -->
